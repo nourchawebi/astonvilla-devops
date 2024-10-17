@@ -22,7 +22,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ghcr.io/nourchawebi/astonvilla
+            ghcr.io/nourchawebi/astonvilla-devops
           tags: |
             type=schedule                # Tag based on scheduled events (if any)
             type=ref,event=branch       # Tag based on branch references
