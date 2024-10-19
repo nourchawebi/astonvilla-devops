@@ -6,6 +6,10 @@ DOCKERHUB_CREDENTIALS = credentials('dockerhub')
 agent any
 
 stages{
+stage("clean up ")
+{
+steps{
+deleteDir()}}
   stage("checkout"){
   steps{
   git url :'https://github.com/nourchawebi/astonvilla-devops.git'
