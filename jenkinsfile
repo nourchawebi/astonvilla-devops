@@ -19,7 +19,7 @@ deleteDir()}}
   {
   steps
   {
-  sh "docker build -t nourchawebi/astonvilla:1.1.${env.BUILD_NUMBER}"
+  sh "docker build -t nourchawebi/astonvilla:1.1.${env.BUILD_NUMBER}  . "
   }
   }
   stage("login")
