@@ -1,0 +1,12 @@
+pipline{
+agent any
+
+stages{
+stage('greeting')
+{
+steps{
+sh 'echo "hello we are creating a pipline for astonvilla"'
+}
+}
+}
+}

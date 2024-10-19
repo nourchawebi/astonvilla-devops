@@ -3,7 +3,7 @@ name:   analyse with sonarqube
 on:
   push:
     branches:
-      - main
+      - master
 
 
 jobs:
