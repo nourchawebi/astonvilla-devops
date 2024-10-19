@@ -4,7 +4,7 @@ environment{
 DOCKERHUB_CREDENTIALS = credentials('dockerhub')
 }
 agent any
-
+#test
 stages{
 stage("clean up ")
 {
